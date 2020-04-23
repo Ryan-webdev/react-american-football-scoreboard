@@ -77,6 +77,7 @@
   justify-content: space-around;
   place-items: center;
   height: 20rem;
+  margin-top: 2rem;
 }
 
 .down,
@@ -103,6 +104,7 @@
   border-radius: 4px;
   padding: 1.6rem;
   border: 1px solid white;
+  margin-bottom: 2rem;
 }
 
 .buttons {
@@ -115,7 +117,11 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.down_button,
+.toGo_button,
+.ballOn_button,
+.quarter_button {
   margin: 1rem;
   border-radius: 4px;
 }
